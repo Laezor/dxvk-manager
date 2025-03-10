@@ -1,0 +1,45 @@
+To create a README for the `dxvk-manager` PowerShell script, we should include the following sections: Introduction, Prerequisites, Installation, Usage, and License. Here's a draft for the README:
+
+---
+
+# DXVK Manager
+
+DXVK Manager is a PowerShell script designed to manage the installation and removal of DXVK (DirectX to Vulkan) for Windows games. It provides a graphical user interface (GUI) to simplify the process of installing DXVK into game directories, scanning for games, and downloading the latest DXVK releases.
+
+## Prerequisites
+
+- Windows operating system
+- PowerShell 5.0 or later
+- .NET Framework for Windows Forms support
+- Internet connection for downloading DXVK
+
+## Installation
+
+1. Clone or download the `dxvk-manager` repository to your local machine.
+2. Ensure that you have the necessary permissions to run PowerShell scripts on your system. You may need to adjust your execution policy by running:
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+3. Open a PowerShell terminal and navigate to the directory containing `dxvk-manager.ps1`.
+
+## Usage
+
+1. Run the script by executing:
+   ```powershell
+   .\dxvk-manager.ps1
+   ```
+2. The GUI will open, displaying options to manage DXVK installations.
+3. Use the "Scan Library" button to search for games in your Steam library or any specified directory.
+4. Select the games you wish to manage by checking the boxes next to their names.
+5. Use the "Install DXVK" button to install DXVK into the selected games.
+6. Use the "Remove DXVK" button to remove DXVK from the selected games.
+7. Use the "Download DXVK" button to download the latest version of DXVK from GitHub.
+8. The "Developer Info" button provides information about the script's developer.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+---
+
+Feel free to modify or expand upon this draft to better fit your project's needs or to include additional information. If you have any specific details or sections you'd like to add, let me know!
