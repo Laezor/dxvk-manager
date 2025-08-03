@@ -140,7 +140,7 @@ function Remove-DXVK {
 
     $dxvkFiles = @(
         "d3d8.dll", "d3d9.dll", "d3d10.dll", "d3d10core.dll", 
-        "d3d11.dll", "d3d12.dll", "dxgi.dll"
+        "d3d11.dll", "dxgi.dll"
     )
 
     foreach ($dll in $dxvkFiles) {
